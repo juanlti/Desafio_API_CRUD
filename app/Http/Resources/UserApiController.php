@@ -33,6 +33,7 @@ class UserApiController extends JsonResponse
         $data = [];
         for ($i = 0; $i < 10; $i++) {
             $data[] = [
+
                 'name' => $faker->firstName,
                 'lastname' => $faker->lastName,
                 'age' => $faker->numberBetween(18, 60),
