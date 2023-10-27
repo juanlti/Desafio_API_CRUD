@@ -21,7 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 */
 
 Route::get('apiGenerarNombres',[UserApiController::class,'generarNombres']);
-///Route::get('generar-nombres', 'NombreAleatorioController@generarNombres');
 
-//Route::get('apiGenerarNombres', 'UserApiController@generateRandomUsers');
 
